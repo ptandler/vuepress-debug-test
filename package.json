@@ -1,0 +1,12 @@
+{
+  "name": "vuepress-debug-test",
+  "description": "Test if `vuepress build --debug` works",
+  "license": "MIT",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "docs:dev": "vuepress dev --debug",
+    "docs:build": "vuepress build && serve .vuepress/dist",
+    "docs:build-debug": "vuepress build --debug && serve .vuepress/dist"
+  }
+}
